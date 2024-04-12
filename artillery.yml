@@ -1,0 +1,11 @@
+config:
+  phases:
+    - duration: 15
+      arrivalRate: 500
+scenarios:
+  - flow:
+      - post:
+          url: /
+          json:
+            profile:
+              name: "Artillery"
